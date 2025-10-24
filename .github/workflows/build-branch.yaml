@@ -35,7 +35,7 @@ jobs:
 
     with:
       registry: ${{ vars.ARTIFACTORY_HOSTNAME }}
-      image-name: 'Ybor Technologies-docker/applications/rooster-frontend'
+      image-name: '${{ vars.ARTIFACTORY_PROJECT }}-docker/applications/rooster-frontend'
       context: "."
       dockerfile: ./Dockerfile
       tags: |
