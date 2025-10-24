@@ -6,7 +6,6 @@ kind: PlatformApplication
 metadata:
   name: rooster-frontend
   labels:
-    p6m.dev/domain: 'Ybor Technologies'
     p6m.dev/app: 'rooster-frontend'
 spec:
   autoscaling:
